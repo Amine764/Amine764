@@ -1,0 +1,95 @@
+
+
+
+body{
+    height: 100vh;
+    position: relative;
+}
+
+
+#index-text{
+    color: black;
+    text-align: center;
+    margin-top: 600px;
+    font-size: 4rem;
+    margin: 300px;
+}
+form{
+    margin: 10px auto 0 auto;
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20px;
+    input{
+        width: 100%;
+        outline: none;
+        border: 1px solid black;
+        margin: 10px 0;
+        padding: 10px 10px 10px 5px;
+    }
+    button{
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+}
+
+/*Remove Default Form Styling*/
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    p{
+        text-align:center;
+        font-size: 1.5rem;
+        padding: 30px 0;
+    }
+}
+
+
+
+.form-message{
+    margin: 20px auto 0 auto;
+    
+    border-radius: 10px;
+    text-transform: capitalize;
+    max-width: 560px;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+}
+
+.form-message-red{
+    background-color: #ffb3b3;
+    border: 2px solid #ff0000;
+}
+
+.form-message-green{
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+
+.forme-sub-msg{
+    margin: 20px auto 0 auto;
+    width: 90%;
+    max-width: 560px;
+    color: #00334d;
+}
+
+
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
